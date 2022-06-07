@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>Contato | Saraiva</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+</head>
+<body>
+    <article>  
+        <form method="POST" action="dados.php" class="formulario" autocomplete="off" >
+            <h1>Fale Conosco:</h1>
+            <input class="inteiro" type="text" id="assunto" name="assunto" placeholder="Qual o assunto da mensagem?" required maxlength="30">
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome Completo" required maxlength="68">
+            <input type="text" id="data" name="data_nascimento" placeholder="Data de Nascimento" required onfocus="(this.type='date')" onblur="if(this.value == ''){this.type='text'}">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input class="telefone" type="tel" id="telefone" name="telefone" placeholder="Telefone" required>
+            <input class="inteiro" type="text" id="endereco" name="endereco" placeholder="Endereço" required maxlength="68">
+            <input type="text" id="cidade" name="cidade" placeholder="Cidade" maxlength="68">
+            <select name="estado" id="estado" aria-placeholder="Estado" required onblur="after(this)">
+                <option value="" selected disabled>Selecione um Estado</option>
+                <option value="AC">AC</option>
+	            <option value="AL">AL</option>
+	            <option value="AP">AP</option>
+	            <option value="AM">AM</option>
+	            <option value="BA">BA</option>
+	            <option value="CE">CE</option>
+	            <option value="DF">DF</option>
+	            <option value="ES">ES</option>
+	            <option value="GO">GO</option>
+	            <option value="MA">MA</option>
+	            <option value="MT">MT</option>
+	            <option value="MS">MS</option>
+	            <option value="MG">MG</option>
+	            <option value="PA">PA</option>
+	            <option value="PB">PB</option>
+	            <option value="PR">PR</option>
+	            <option value="PE">PE</option>
+	            <option value="PI">PI</option>
+	            <option value="RJ">RJ</option>
+	            <option value="RN">RN</option>
+	            <option value="RS">RS</option>
+	            <option value="RO">RO</option>
+	            <option value="RR">RR</option>
+	            <option value="SC">SC</option>
+	            <option value="SP">SP</option>
+	            <option value="SE">SE</option>
+	            <option value="TO">TO</option>
+            </select>
+            <textarea class="inteiro" name="mensagem" id="mensagem" placeholder="Digite aqui sua mensagem..." maxlength="1344"></textarea>
+            <input type="submit" value="OK" class="submit">
+        </form>
+    </article>
+    <script src="../js/utils.js"></script>
+    <script>
+        jQuery("input.telefone").mask("+55 (99) 9 9999-9999")
+    </script>
+</body>
+</html>

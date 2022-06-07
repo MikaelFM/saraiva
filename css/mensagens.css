@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.85vw;
+}
+header {
+    margin: 6vw auto 2vw auto;
+    width: 75vw;
+    display: block;
+}
+h1 {
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    color: var(--amarelo);
+}
+a {
+    color: var(--cinza-claro);
+}
+a:hover {
+    color: var(--amarelo);
+}
+section {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vw;
+    margin: 0 auto 1.5vw auto;
+}
+.mensagem {
+    display: flex;
+    background-color: var(--cinza);
+    width: 100%;
+    height: 8vw;
+    align-items: center;
+    gap: 3vw;
+}
+.icon {
+    margin-left: 2vw;
+    height: 3vw;
+    width: 3vw;
+    background-image: url(../images/User.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mensagem .content .assunto {
+    font-weight: 800;
+    color: var(--amarelo);
+}
+.mensagem .content .resumo {
+    color: var(--cinza-claro);
+    width: 60vw;
+}
+.mensagem .content .data {
+    color: var(--cinza-claro-seg);
+}
+#button {
+    margin-left: auto;
+    background-color: var(--cinza);
+    border: none;
+    color: var(--white);
+    font-weight: 600;
+    padding: 1vw 5vw;
+    text-decoration: none;
+}
+#button:hover {
+    background-color: var(--cinza-hover);
+}
+.reticencias {
+    right: 0;
+}
+i {
+    font-size: 1.2vw;
+    color: var(--cinza-claro);
+}
+i:hover {
+    color: var(--amarelo);
+}

@@ -1,0 +1,51 @@
+:root {
+    --amarelo: #000000;
+    --cinza-escuro: #d7d6d6;
+    --cinza-fundo: #ebeaea;
+    --cinza: #d0cecedf;
+    --cinza-interno: #ffffff;
+    --cinza-claro: #000000;
+    --cinza-claro-seg: rgb(0, 0, 0);
+    --white: rgb(0, 0, 0);
+    --black-opaco: rgba(250, 250, 250, 0.715);
+    --black: rgb(255, 255, 255);
+    --cinza-hover: rgb(118, 118, 118);
+}
+.img1 {
+    background-image: url(../images/homeIcons/black/livroIcon.png);
+}
+.img2 {
+    background-image: url(../images/homeIcons/black/controleIcon.png);
+}
+.img3 {
+    background-image: url(../images/homeIcons/black/cienciaIcon.png);
+}
+.img4 {
+    background-image: url(../images/homeIcons/black/universitarioIcon.png);
+}
+#saraivaLogo {
+    background-image: url(../images/logoBlack.png);
+}
+#saraivaLogoBranco {
+    background-image: url(../images/logoBlack.png);
+}
+#icon, .icon {
+    background-image: url(../images/UserBlack.png);
+}
+.thisPag, .thisPag:visited {
+    background-color: black;
+    color: #ffffff;
+}
+#destaque {
+    color: white;
+    background-color: black;
+}
+#alert p {
+    color: white;
+}
+nav ul li a:hover:not(.thisPag) {
+    color: #7a7a7a;
+}
+footer ul li a:hover {
+    color: #7a7a7a;
+}

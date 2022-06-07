@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    width: 75vw;
+}
+#alert{
+    background-color: var(--amarelo);
+    width: 100%;
+}
+#alert p {
+    font-size: 85%;
+    font-weight: 800;
+    text-align: center;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--cinza);
+    width: 100%;
+    padding: 3vw 0 4vw 0;
+}
+#user {
+    width: 65vw;
+    margin: 0 auto;
+    display: flex;
+    gap: 2vw;
+}
+#info {
+    height: 4vw;
+    display: flex;
+    flex-direction: column;
+}
+#superior {
+    font-size: 1.1vw;
+    margin: 0;
+    color: var(--white);
+}
+#inferior{
+    font-size: 0.8vw;
+    margin: 0;
+    color: var(--cinza-claro-seg);
+}
+.cinza {
+    margin-left: 1vw;
+    color: var(--cinza-claro);
+    font-size: 1vw;
+}
+#text {
+    width: 65vw;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+#text h1 {
+    color: var(--amarelo);
+    font-size: 1vw;
+    font-weight: 800;
+}
+#text #mensagem {
+    color: var(--cinza-claro);
+    font-size: 0.9vw;
+    padding: 1vw 0;
+    max-width: 70vw;
+}
+#text #data {
+    color: var(--cinza-claro-seg);
+    font-size: 0.8vw;
+}
+#button {
+    margin-left: auto;
+    background-color: var(--cinza);
+    border: none;
+    color: var(--white);
+    font-weight: 600;
+    padding: 1vw 5vw;
+    font-size: 0.75vw;
+}
+#button:hover {
+    background-color: var(--cinza-hover);
+}
+#icon {
+    height: 3.7vw;
+    width: 3.8vw;
+    background-image: url(../images/User.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#verticalcenter {
+    width: 100%;
+    height: calc(100vh - (4.5vw + 8vh));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.5vw;
+}

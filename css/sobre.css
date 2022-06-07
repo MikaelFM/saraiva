@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@300&display=swap');
+
+*{
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+section {
+    display: flex;
+    gap: 2.5vw;  
+    width: 82.5vw;
+    margin: 0 auto;
+    margin-top: 15vh;
+}
+
+#sobr{
+    color: var(--white);
+    margin-top: 2vh;
+    line-height: 2vw;
+    font-size: 1vw;
+}
+
+.titulosar{
+    color: var(--amarelo);
+    padding-bottom: 1vh;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#desc{
+    width: 30vw;
+    text-align: center;
+    background-color: var(--cinza);
+    padding: 2vw;
+    border-radius: 1vh;
+}
+
+#maps, #pt1, #pt2{
+    width: 20vw;
+    height: 20vw;
+}
+
+#endereco{
+    width: 40vw;
+    background-color: var(--cinza);
+    border-radius: 1vh;
+    padding: 4vw;
+    border-radius: 1vh;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+
+.local{
+    color: var(--white);
+    font-size: 1.1vw;
+    line-height: 2vw;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+#sec{
+    margin: 2vw auto 3.7vw auto;
+    color: var(--white);
+    width: 82.5vw;
+    height: 5vw;
+    background-color: var(--cinza);
+    border-radius: 1vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9vw;
+}
+
+#um{
+    padding-left: 5vw;
+}
+
+#dois{
+    padding-right: 5vw;
+}
+
+i {
+    color: var(--amarelo);
+    padding-right: 0.5vw;
+    font-size: 105%;
+}

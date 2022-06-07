@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@300&display=swap');
+* {
+    font-family: 'Lexend Exa', sans-serif;
+}
+h1{
+    color: var(--amarelo);
+    font-family: "League Spartan", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 170%;
+}
+article {
+    padding: 1.5vw;
+}
+.formulario{
+    background-color: var(--cinza-fundo);
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1vw;
+    row-gap: 1vw;
+    margin: 8vh;
+    width: 90vw;
+    font-family: 'Lexend Exa', sans-serif;
+    position: relative;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(0.8);
+    margin-right: 2vw;
+    font-size: 1.2vw;
+} 
+input, textarea, input::after, textarea::after {
+    font-size: 0.8vw;
+    padding-left: 2vw;
+    height: 3.3vw;
+    background-color: var(--cinza);
+    color: var(--white);
+}
+.submit {
+    padding: 0;
+}
+input::placeholder, textarea::placeholder, select {
+    color: var(--cinza-claro-seg);
+    font-size: 0.8vw;
+}
+input, textarea:focus, input:focus, select:focus, textarea, select {
+    background-color: var(--cinza);
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+input:focus, textarea:focus, select:focus {
+    border: 0.1px solid var(--cinza-hover);
+}
+.inteiro {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+select {
+    padding: 0 2vw;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+}
+textarea {
+    padding: 2vw 3vh 2vw 3vw;
+    height: 20vh;
+}
+input[type="submit"] {
+    background-color: var(--amarelo);
+    color: var(--cinza-escuro);
+    font-weight: 800;
+    width: 20%;
+    text-align: center;
+}
